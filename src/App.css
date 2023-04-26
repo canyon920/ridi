@@ -1,0 +1,180 @@
+
+
+button {
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+    border: solid 1px white;
+    padding: 20px;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.button_class {
+    display: flex;
+}
+
+
+
+.top-header {
+    display: flex;
+}
+.top-header > li {
+    margin: 10px;
+    font-size: 11px;
+}
+
+#header_navi > li {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 260px;
+  }
+
+  li {
+    list-style: none;
+  }
+  #header_navi > div {
+    margin-bottom: 50px;    
+  }
+  
+  .header_nth > div {
+    border-radius: 100%;
+    padding:50px;
+    border-radius: 100%;
+    width:30px;
+    height: 30px;
+    background-color: lightblue;
+
+  }
+  
+  #header_navi > li > a {
+    width:50px;
+    height: 50px;
+    display:block; position:relative; padding-bottom:19px;
+    margin: 50px;
+    color: black;
+    
+  }
+ 
+  #header_navi > li > a > span {
+    position:absolute; 
+    margin:0 auto; 
+    color:#666; 
+    line-height:1.462em; 
+    white-space:nowrap; 
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+    transform:translate(80%, 0)
+  }
+
+  
+
+.swiper {
+
+    width: 1018px;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #ec994b;
+  --white: #ffffff;
+  --bg: #f5f5f5;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 2s ease-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+
+.book-cate01 {
+    display: flex;
+}
+
+.book-cate01 > li {
+    list-style: none;
+    background-color: lightblue;
+    color: black;
+    margin: 0 20px;
+    border-radius: 25%;
+    height: 20px;
+    padding: 20px;
+}

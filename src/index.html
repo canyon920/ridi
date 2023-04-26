@@ -1,0 +1,138 @@
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Beautiful Layout</title>
+    <style>
+      .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-bar {
+  width: 150px;
+  height: 20px;
+  background-color: #ddd;
+  position: relative;
+  animation: loading 2s linear infinite;
+}
+
+.loading-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #777;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      
+      section {
+        width: 30%;
+        background-color: #f2f2f2;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding: 20px;
+      }
+      
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>My Beautiful Layout</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <form action="#" method="get">
+        <input type="text" name="search" placeholder="Search...">
+        <button type="submit">Go</button>
+      </form>
+    </nav>
+    </header>
+    
+    <main>
+      <section>
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel tellus id velit lacinia laoreet.</p>
+      </section>
+      <section>
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel tellus id velit lacinia laoreet.</p>
+      </section>
+      <section>
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel tellus id velit lacinia laoreet.</p>
+      </section>
+    </main>
+    <div class="loading">
+      <div class="loading-bar"></div>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+  </body>
+
+    <footer>
+      <p>&copy; 2023 My Beautiful Layout</p>
+    </footer>
+</html>

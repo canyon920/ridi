@@ -1,0 +1,245 @@
+
+.TOP-PARENT {
+  justify-content: space-between;
+  display: flex;
+}
+
+.top_header {
+  display: flex;
+}
+.top_header > li {
+  list-style:none;
+  margin: 0 20px;
+}
+
+.top_header > li > a {
+  list-style:none;
+  color: black;
+  text-decoration: none;
+}
+
+.top_header > li > a:hover {
+ color: black;
+}
+
+.top_inRight{
+  position: relative;  
+}
+
+
+ 
+.title_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_header > .title_ui {
+  display: flex;
+
+}
+
+.title_header > .title_ui > li {
+  list-style: none;
+}
+ 
+
+
+/* 아직 안쓰는 태그 */
+.title_header > .title_header_rht {
+  /* display: inline-block; */
+}
+
+
+.title_header > .title_ui > li {
+  margin: 0 10px;
+}
+
+.title_hader:nth-of-type(2){
+  height: 60px;
+}
+
+.title_header > .title_ui > li > a {
+  color: black;
+  text-decoration: none;
+} 
+.title_header > .title_ui > li > .cate_input {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px 5px 0px;
+  outline: none;
+}
+
+.title_header > li > input, button {
+}
+
+
+
+
+.top_cate01 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_cate01 > ul {
+  display: flex;
+}
+
+
+.top_cate01 > ul > li {
+  list-style: none;
+}
+
+.top_cate01 > ul > li > a {
+  color: black;
+  margin: 0 10px;
+  list-style: none;
+  text-decoration: none;  
+}
+
+.top_cate01 > ul > li > a:hover {
+  color: blue;
+  margin: 0 10px;
+  list-style: none;
+  text-decoration: none;  
+}
+
+
+.top_cate02 { }
+
+.top_cate02 > ul { 
+  display: flex; 
+}
+
+.top_cate02 > ul > li { 
+  margin: 0 20px; 
+  list-style:none;
+  text-align: center;
+}
+
+.top_cate02 > ul > li > a{ 
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+.top_cate02 > ul > li a.active {
+  border-radius: 100px; 
+  padding: 10px;
+  background-color: skyblue;
+  transition: 0.2s ease-in;
+}
+ 
+ 
+
+
+/*  swiper  */
+
+.swiper_class {
+  position: relatvie;
+  height: 100%;
+}
+
+.swiper {
+  width: 1116px;
+  height: 400px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.date_now_book {
+  
+  /* width: 960px; */
+  /* max-width: 1920px; */
+  /* text-align: center; */
+  /* position: relative; */
+}
+
+.date_now_book > li{
+  margin:0 20px;
+  min-width: 400px;
+  list-style: none;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  display: inline-block;
+}
+
+
+
+.date_now_book ul {
+  display: flex;
+}
+
+.date_now_book > ul > li {
+  list-style: none;
+}
+
+
+/*  Sipwer 하단 */
+.top_cate03 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.top_cate03 > li {
+  display: flex;
+  margin: 0 10px;
+  text-decoration: none;
+ }
+
+
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+ .top_cate03 > li > .ct03_so  > a  > {
+  text-decoration: none;
+  color: black;
+ }
+
+ .top_cate03 > li > .ct03_so  > a  > div {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+ }
+
+
+ .top_cate03 > li > a > .inline {
+  display: inline;
+  text-decoration: none;
+ }
+
+
+ .top_cate03 > li > a {
+  display: flex;
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+ }
+
+ 
